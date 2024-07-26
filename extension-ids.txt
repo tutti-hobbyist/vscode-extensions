@@ -1,0 +1,80 @@
+# General
+aslamanver.vsc-export
+ms-vscode-remote.vscode-remote-extensionpack
+ms-azuretools.vscode-docker
+MS-vsliveshare.vsliveshare
+adpyke.codesnap
+PKief.material-icon-theme
+sdras.night-owl
+hediet.vscode-drawio
+yzhang.markdown-all-in-one
+bierner.github-markdown-preview
+yzane.markdown-pdf
+humao.rest-client
+rangav.vscode-thunder-client
+GrapeCity.gc-excelviewer
+johnpapa.vscode-peacock
+alefragnani.project-manager
+frenco.vscode-notion
+naumovs.color-highlight
+IBM.output-colorizer
+alefragnani.Bookmarks
+mutantdino.resourcemonitor
+
+# Efficient coding
+christian-kohler.path-intellisense
+chrmarti.regex
+Gruntfuggly.todo-tree
+oderwat.indent-rainbow
+usernamehw.errorlens
+mosapride.zenkaku
+leodevbro.blockman
+AmazonWebServices.amazon-q-vscode
+TabNine.tabnine-vscode
+VisualStudioExptTeam.vscodeintellicode
+wmaurer.change-case
+streetsidesoftware.code-spell-checker
+formulahendry.code-runner
+hbenl.vscode-test-explorer
+inu1255.easy-snippet
+redhat.vscode-yaml
+tamasfe.even-better-toml
+ryanluker.vscode-coverage-gutters
+
+# Configuration management
+eamodio.gitlens
+mhutchie.git-graph
+GitHub.vscode-pull-request-github
+GitHub.vscode-github-actions
+codezombiech.gitignore
+ultram4rine.vscode-choosealicense
+
+# Web page development
+ritwickdey.LiveServer
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+ecmel.vscode-html-css
+
+# JavaScript
+esbenp.prettier-vscode
+dbaeumer.vscode-eslint
+xabikos.JavaScriptSnippets
+WallabyJs.quokka-vscode
+christian-kohler.npm-intellisense
+
+# Python
+ms-python.python
+KevinRose.vsc-python-indent
+njpwerner.autodocstring
+ms-python.black-formatter
+charliermarsh.ruff
+ms-python.isort
+ms-toolsai.jupyter
+ms-toolsai.datawrangler	
+SBSnippets.pytorch-snippets
+batisteo.vscode-django
+
+# Java
+vscjava.vscode-java-pack
+vmware.vscode-boot-dev-pack
+vscjava.vscode-lombok
