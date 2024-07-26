@@ -1,34 +1,43 @@
-name: generate
+name: CI
 
 on:
   push:
-    branches: 
+    branches:
       - main
-  workflow_dispatch:
 
 jobs:
-  automatic-generator:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
 
-      # Pythonのセットアップ
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.10'
-          architecture: 'x64'
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # Gitのセットアップ
+    - name: Setup Git
+      run: |
+        git config user.name "tutti-hobbyist"
+        git config user.email "tutti.hobbyist@gmail.com"
+
+    # Pythonのセットアップ
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+        architecture: 'x64'
       
-      # Pythonファイルの実行
-      - name: Run Python
-        run: python make-install-script.py
-      
-      # 実行した結果をプッシュして変更をレポジトリに反映
-      - name: Commit and Push
-        run: |
-          git config user.name "tutti-hobbyist"
-          git config user.email "tutti.hobbyist@gmail.com"
-          git add .
-          git commit -m "automatic update by GitHub Actions"
-          git pull origin main
-          git push origin main
+
+    # Pythonファイルの実行
+    - name: Run Python
+      run: |
+        python make-install-script.py
+
+    # 実行した結果をプッシュして変更をレポジトリに反映
+    - name: Commit and Push changes
+      env:
+        ACTIONS_PAT: ${{ secrets.Actions_PAT }}
+      run: |
+        git add .
+        git commit -m "automatic update by GitHub Actions"
+        git pull origin main
+        git push https://${Actions_PAT}@github.com/tutti-hobbyist/vscode-extensions.git main
