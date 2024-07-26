@@ -35,9 +35,9 @@ jobs:
     # 実行した結果をプッシュして変更をレポジトリに反映
     - name: Commit and Push changes
       env:
-        ACTIONS_PAT: ${{ secrets.Actions_PAT }}
+        ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
       run: |
         git add .
         git commit -m "automatic update by GitHub Actions"
         git pull origin main
-        git push https://${Actions_PAT}@github.com/tutti-hobbyist/vscode-extensions.git main
+        git push https://${ACTIONS_PAT}@github.com/tutti-hobbyist/vscode-extensions.git main
