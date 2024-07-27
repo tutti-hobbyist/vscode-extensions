@@ -20,6 +20,7 @@ code --install-extension naumovs.color-highlight
 code --install-extension IBM.output-colorizer
 code --install-extension alefragnani.Bookmarks
 code --install-extension mutantdino.resourcemonitor
+code --install-extension ryu1kn.partial-diff
 
 # Efficient coding
 code --install-extension christian-kohler.path-intellisense
