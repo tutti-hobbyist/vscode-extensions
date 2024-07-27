@@ -41,8 +41,13 @@ jobs:
     - name: Commit and Push changes
       env:
         ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
+      # 作業ツリーに変更がない場合はプッシュをスキップ、変更がある場合にのみ、コミットとプッシュを実行
       run: |
         git add .
-        git commit -m "automatic update by GitHub Actions"
-        git pull origin main
-        git push https://${ACTIONS_PAT}@github.com/tutti-hobbyist/vscode-extensions.git main
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit"
+        else
+          git commit -m "automatic update by GitHub Actions"
+          git pull origin main
+          git push https://${{ secrets.ACTIONS_PAT }}@github.com/tutti-hobbyist/vscode-extensions.git main
+        fi
