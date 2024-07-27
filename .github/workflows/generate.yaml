@@ -12,6 +12,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      # ワークフロー開始時に自動生成される GITHUB_TOKEN との競合を防ぐために、使用するトークンを明示的に指定
+      # GITHUB_TOKEN：https://docs.github.com/ja/actions/security-guides/automatic-token-authentication
+      # 個人用アクセストークン：https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
       with:
         token: ${{ secrets.ACTIONS_PAT }}
 
