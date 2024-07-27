@@ -20,6 +20,7 @@ naumovs.color-highlight
 IBM.output-colorizer
 alefragnani.Bookmarks
 mutantdino.resourcemonitor
+ryu1kn.partial-diff
 
 # Efficient coding
 christian-kohler.path-intellisense

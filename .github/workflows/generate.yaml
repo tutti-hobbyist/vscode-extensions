@@ -47,6 +47,8 @@ jobs:
         if git diff-index --quiet HEAD; then
           echo "No changes to commit"
         else
+          echo "Changes detected:"
+          git diff --cached
           git commit -m "automatic update by GitHub Actions"
           git pull origin main
           git push https://${{ secrets.ACTIONS_PAT }}@github.com/tutti-hobbyist/vscode-extensions.git main
