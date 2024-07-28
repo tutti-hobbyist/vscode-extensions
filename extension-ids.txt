@@ -21,6 +21,7 @@ IBM.output-colorizer
 alefragnani.Bookmarks
 mutantdino.resourcemonitor
 ryu1kn.partial-diff
+ms-vscode.hexeditor
 
 # Efficient coding
 christian-kohler.path-intellisense
@@ -45,6 +46,7 @@ ryanluker.vscode-coverage-gutters
 # Configuration management
 eamodio.gitlens
 mhutchie.git-graph
+donjayamanne.githistory
 GitHub.vscode-pull-request-github
 GitHub.vscode-github-actions
 codezombiech.gitignore
@@ -71,7 +73,7 @@ ms-python.black-formatter
 charliermarsh.ruff
 ms-python.isort
 ms-toolsai.jupyter
-ms-toolsai.datawrangler	
+ms-toolsai.datawrangler
 SBSnippets.pytorch-snippets
 batisteo.vscode-django
 
