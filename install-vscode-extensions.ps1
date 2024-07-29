@@ -22,6 +22,7 @@ code --install-extension alefragnani.Bookmarks
 code --install-extension mutantdino.resourcemonitor
 code --install-extension ryu1kn.partial-diff
 code --install-extension ms-vscode.hexeditor
+code --install-extension DavidLGoldberg.jumpy2
 
 # Efficient coding
 code --install-extension christian-kohler.path-intellisense
