@@ -22,6 +22,7 @@ alefragnani.Bookmarks
 mutantdino.resourcemonitor
 ryu1kn.partial-diff
 ms-vscode.hexeditor
+DavidLGoldberg.jumpy2
 
 # Efficient coding
 christian-kohler.path-intellisense
