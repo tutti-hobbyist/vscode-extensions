@@ -21,6 +21,7 @@ code --install-extension IBM.output-colorizer
 code --install-extension alefragnani.Bookmarks
 code --install-extension mutantdino.resourcemonitor
 code --install-extension ryu1kn.partial-diff
+code --install-extension ms-vscode.hexeditor
 
 # Efficient coding
 code --install-extension christian-kohler.path-intellisense
@@ -45,6 +46,7 @@ code --install-extension ryanluker.vscode-coverage-gutters
 # Configuration management
 code --install-extension eamodio.gitlens
 code --install-extension mhutchie.git-graph
+code --install-extension donjayamanne.githistory
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GitHub.vscode-github-actions
 code --install-extension codezombiech.gitignore
