@@ -31,9 +31,6 @@ Gruntfuggly.todo-tree
 oderwat.indent-rainbow
 usernamehw.errorlens
 mosapride.zenkaku
-leodevbro.blockman
-AmazonWebServices.amazon-q-vscode
-TabNine.tabnine-vscode
 VisualStudioExptTeam.vscodeintellicode
 wmaurer.change-case
 streetsidesoftware.code-spell-checker
