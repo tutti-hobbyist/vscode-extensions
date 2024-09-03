@@ -31,9 +31,6 @@ code --install-extension Gruntfuggly.todo-tree
 code --install-extension oderwat.indent-rainbow
 code --install-extension usernamehw.errorlens
 code --install-extension mosapride.zenkaku
-code --install-extension leodevbro.blockman
-code --install-extension AmazonWebServices.amazon-q-vscode
-code --install-extension TabNine.tabnine-vscode
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wmaurer.change-case
 code --install-extension streetsidesoftware.code-spell-checker
